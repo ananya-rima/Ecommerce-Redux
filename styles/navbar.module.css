@@ -7,10 +7,10 @@
 }
 
 .navlink:hover {
-  color:rgb(7, 7, 241); /* MUI primary blue */
+  color:rgb(7, 7, 241); 
 }
 
-/* Underline animation */
+
 .navlink::after {
   content: "";
   position: absolute;

@@ -19,7 +19,7 @@ export default function Navbar() {
     <AppBar position="sticky" color="primary" elevation={3}>
       <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
         
-        {/* Logo / Brand */}
+        
         <Typography
           variant="h6"
           component={Link}
@@ -34,7 +34,7 @@ export default function Navbar() {
           MyShop
         </Typography>
 
-        {/* Navigation Buttons */}
+        
         <div>
           <Button
             component={Link}
