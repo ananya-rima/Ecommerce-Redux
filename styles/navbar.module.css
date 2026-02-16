@@ -1,0 +1,27 @@
+.navlink {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navlink:hover {
+  color:rgb(7, 7, 241); /* MUI primary blue */
+}
+
+/* Underline animation */
+.navlink::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #1976d2;
+  transition: width 0.3s ease;
+}
+
+.navlink:hover::after {
+  width: 100%;
+}
